@@ -12,18 +12,18 @@ const Navbar = () =>{
                 </div> */}
                 <div>
                     <ul className="flex gap-4 mr-16 text-[18]">
-                    <Link to='/Home'><li>Logo</li></Link>
-                    <Link to='/Food'><li>food&beverages</li></Link>
-                    <Link to='/home&industrail'><li>home&industrail</li></Link>
-                    <Link to='/health&beauty'><li>health&beauty</li></Link>
-                    <Link to='/recycling'><li>recycling</li></Link>
-                    <Link to='/services&resources'><li>services&resources</li></Link>
-                    <Link to='/search'><li>search</li></Link>
-                    <Link to='/news'><li>news</li></Link>
-                    <Link to='/sell your things'><li>sell your things</li></Link>
-                    <Link to='/login |'><li>login |</li></Link>
-                    <Link to='/signup'><li>signup</li></Link>
-                    <Link to='/cart'><li>cart</li></Link>
+                    <Link to='/'><li>Logo</li></Link>
+                    <Link to='/FoodBeverages'><li>food&beverages</li></Link>
+                    <Link to='/HomeIndustrail'><li>home&industrail</li></Link>
+                    <Link to='/HealthBeauty'><li>health&beauty</li></Link>
+                    <Link to='/Recycling'><li>recycling</li></Link>
+                    <Link to='/ServicesResources'><li>services&resources</li></Link>
+                    <Link to='/Search'><li>search</li></Link>
+                    <Link to='/News'><li>news</li></Link>
+                    <Link to='/SellYourThings'><li>sell your things</li></Link>
+                    <Link to='/Login'><li>login |</li></Link>
+                    <Link to='/Signup'><li>signup</li></Link>
+                    <Link to='/Cart'><li>cart</li></Link>
                     </ul>
                 </div>
             </div>
