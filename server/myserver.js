@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 //importing the dependencies  
 const express = require("express")
 const mongoose = require('mongoose')
@@ -8,7 +10,7 @@ const app = express();
 
 const port = 6000;
 
-const mongodbURL = "mongodb+srv://tototuri2022:EGzniN7yY1WtoqPs@cluster1.f0kecw0.mongodb.net/?retryWrites=true&w=majority"
+const mongodbURL = process.env.MONGODB_URI; 
 
 mongoose.connect(
     mongodbURL, {
